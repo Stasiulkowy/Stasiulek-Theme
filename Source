@@ -1,0 +1,45 @@
+/**
+ * @name Stasiulek Theme
+ * @version 3.0.4
+ * @description Stasiulek Theme
+ * @author Stasiulek
+ *
+ * @website https://github.com/Stasiulkowy
+ * @source https://github.com/Stasiulkowy/Stasiulek-Theme/Source.css 
+ * @donate 
+ * @invite jzJkA6Z
+ */
+
+ @import url(https://github.com/Stasiulkowy/Stasiulek-Theme/Source.css);
+
+ :root {
+     --accent-hue: 224;
+     --accent-saturation: 71%;
+     --accent-lightness: 61%;
+     --accent-text-color: rgb(0, 47, 255);
+     --accent-button-action: rgb(0, 47, 255); /*	-	*/
+     
+     --avatar-radius: 50%; /*	-	*/
+ 
+     --message-radius: 19px;
+     --message-padding-top: 8px;
+     --message-padding-side: 12px; /*	-	*/
+ 
+     --media-radius: 19px; /*	-	*/
+ 
+     --card-radius: 5px;
+     --card-radius-big: 10px; /*	-	*/
+ 
+     --popout-radius: 5px;
+     --popout-radius-big: 10px;
+ }
+ 
+ .theme-dark {
+     --saturation-modifier: 0.175;
+     --lightness-modifier: 0.2;
+ }
+ 
+ .theme-light {
+     --saturation-modifier: 0.4;
+     --lightness-modifier: 2.175;
+ }
